@@ -1,0 +1,146 @@
+body {
+   margin: 0;
+   color: rgba(0,0,0,.87);
+   font-family: 'Public Sans', 'Helvetica', "Arial", "sans-serif";
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: -.01em;
+}
+
+a {
+   color: black;
+
+}
+
+header {
+   height: 101px;
+   z-index: 10;
+   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%); 
+   position: relative;
+   /* display: flex;
+   align-items: center;
+   padding-left: 4rem;
+   padding-right: 4rem; */
+   
+
+}
+
+.header-container {
+   /* max-width: 1600px; */
+   margin: 0 auto;
+   max-width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 0;
+   padding-right: 0;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-grow: 1;
+   
+}
+
+.left-nav {
+   display: flex;
+   height: 100%;
+   align-items: center;
+   padding-left: 10px;
+}
+
+.logo {
+   height: 51px;
+   width: 51px;
+}
+
+.logo img {
+   height: 100%;
+   cursor: pointer;
+}
+
+.left-nav nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   
+}
+
+.left-nav nav ul li {
+   text-transform: uppercase;
+   padding-left: 24px;
+   font-weight: 700;
+   letter-spacing: 0.1em;
+   cursor: pointer;
+   
+}
+
+.left-nav nav ul li:hover {
+   color: #008248;
+   font-weight: 700;
+   font-size: 1.05rem;
+}
+
+.right-nav {
+   display: flex;
+   align-items: center;
+   padding-right: 23px;
+}
+
+.find-store {
+   display: flex;
+   align-items: center;
+   padding-right: 10px;
+   margin-right: 40px;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.find-store i {
+   padding-right: 8px;
+   font-size: 22px;
+}
+
+.find-store:hover {
+   color: #008248;
+   font-weight: 700;
+   font-size: 1.05rem;
+
+}
+
+.sign-in, .join-now {
+   padding: 7px 16px;
+   border: 1px solid;
+   border-radius: 50px;
+   font-weight: 600;
+   line-height: 1.2;
+   cursor: pointer;
+   
+}
+
+
+
+.join-now {
+   background-color: black;
+   color: white;
+   transition: all .2s ease;
+}
+
+.join-now:hover {
+   background-color: rgba(0,0,0,.7);
+   border-color: rgba(0,0,0,.7);
+   font-weight: 700;
+   line-height: 1.2;
+}
+
+.sign-in {
+   margin-right: 16px;
+   transition: all .2s ease;
+   /* cursor: pointer; */
+}
+
+.sign-in:hover {
+   background-color: rgba(0,0,0,.1);
+   font-weight: 700;
+   line-height: 1.25;
+}
+
